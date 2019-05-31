@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="@string/tv1"
+        app:layout_constraintBottom_toBottomOf="@+id/etNombre"
+        app:layout_constraintEnd_toStartOf="@+id/etNombre"
+        app:layout_constraintTop_toTopOf="@+id/etNombre" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="@string/tv4"
+        app:layout_constraintBottom_toBottomOf="@+id/etFechaNacimiento"
+        app:layout_constraintEnd_toStartOf="@+id/etFechaNacimiento"
+        app:layout_constraintTop_toTopOf="@+id/etFechaNacimiento" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="Siguiente"
+        android:text="@string/boton1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFechaNacimiento" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/etApellidoMaterno"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etApellidoMaterno"
+        app:layout_constraintTop_toBottomOf="@+id/etApellidoMaterno" />
+
+    <EditText
+        android:id="@+id/etApellidoPaterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etNombre"
+        app:layout_constraintStart_toStartOf="@+id/etNombre"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+    <EditText
+        android:id="@+id/etApellidoMaterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etApellidoPaterno"
+        app:layout_constraintStart_toStartOf="@+id/etApellidoPaterno"
+        app:layout_constraintTop_toBottomOf="@+id/etApellidoPaterno" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="@string/tv2"
+        app:layout_constraintBottom_toBottomOf="@+id/etApellidoPaterno"
+        app:layout_constraintEnd_toStartOf="@+id/etApellidoPaterno"
+        app:layout_constraintTop_toTopOf="@+id/etApellidoPaterno" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:text="@string/tv3"
+        app:layout_constraintBottom_toBottomOf="@+id/etApellidoMaterno"
+        app:layout_constraintEnd_toStartOf="@+id/etApellidoMaterno"
+        app:layout_constraintTop_toTopOf="@+id/etApellidoMaterno" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="tv1">Nombre</string>
+    <string name="tv2">Apellido Paterno</string>
+    <string name="tv3">Apellido Materno</string>
+    <string name="tv4">Fecha de Nacimiento</string>
+    <string name="boton1">Siguiente</string>
+    <string name="boton2">Volver</string>
+    <string name="FechaInvalida">Fecha inválida, por favor ingresa una fecha del tipo (DD/MM/AAAA)</string>
+    <string name="NombreInvaido">"Ingresa un nombre válido"</string>
+    <string name="FechaInexistente">"La fecha que estás ingresando no existe, por favor ingresa una fecha válida"</string>
+    <string name="aries">Aries</string>
+    <string name="tauro">Tauro</string>
+    <string name="geminis">Géminis</string>
+    <string name="cancer">Cáncer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpion">Escorpio</string>
+    <string name="sagitario">Sagitario</string>
+    <string name="capricornio">Capricornio</string>
+    <string name="acuario">Acuario</string>
+    <string name="piscis">Piscis</string>
+</resources>

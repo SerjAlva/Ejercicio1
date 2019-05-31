@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Excercise 1</string>
+    <string name="tv1">Name</string>
+    <string name="tv2">Fathers surname:</string>
+    <string name="tv3">Mothers surname:</string>
+    <string name="tv4">Birth date:</string>
+    <string name="boton1">Next</string>
+    <string name="boton2">Back</string>
+    <string name="FechaInvalida">Invalid date, please provide a date of the type (DD/MM/AAAA)</string>
+    <string name="NombreInvaido">"Please, enter a valid name"</string>
+    <string name="FechaInexistente">"Invalid date, please provide an existing date"</string>
+    <string name="aries">Aries</string>
+    <string name="tauro">Taurus</string>
+    <string name="geminis">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="escorpion">Scorpio</string>
+    <string name="sagitario">Sagitarius</string>
+    <string name="capricornio">Capricorn</string>
+    <string name="acuario">Acuarius</string>
+    <string name="piscis">Pisces</string>
+</resources>
